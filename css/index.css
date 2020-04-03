@@ -1,6 +1,7 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+/*===Navbar===*/
 .navbar{
     background-color: #9fbca1;
 }
@@ -24,3 +25,13 @@ a:hover{
     color: white!important;
 }
 
+/*===Carousel===*/
+.w-100{
+    margin-top: 1.5em !important;
+    height: 34em!important;
+    width: 90% !important;
+}
+
+.carousel-inner img {
+    margin: auto;
+}
