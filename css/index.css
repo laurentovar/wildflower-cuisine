@@ -1,6 +1,5 @@
 *{
     font-family: 'Poppins', sans-serif;
-
 }
 .navbar{
     background-color: #9fbca1;
@@ -8,6 +7,9 @@
 a{
     color: white;
     font-family: 'DM Serif Display', serif;
+}
+a:hover{
+    color: #687869;
 }
 .navbar-brand{
     font-size: 1.6em;
@@ -17,3 +19,8 @@ a{
     border-radius: 16px;
     color: white;
    }
+.btn:hover {
+    background-color: #687869;
+    color: white!important;
+}
+
