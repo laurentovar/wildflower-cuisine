@@ -1,5 +1,19 @@
+*{
+    font-family: 'Poppins', sans-serif;
+
+}
 .navbar{
     background-color: #9fbca1;
-}a{
+}
+a{
     color: white;
- }
+    font-family: 'DM Serif Display', serif;
+}
+.navbar-brand{
+    font-size: 1.6em;
+}
+.btn{
+    background-color: #808d74;
+    border-radius: 16px;
+    color: white;
+   }
