@@ -39,3 +39,18 @@ a:hover{
 .carousel-inner img {
     margin: auto;
 }
+/*========Footer======*/
+footer{
+    background-color: #9fbca1;
+    color: white;
+}
+.footer{
+    list-style: none;
+    display: flex;
+    margin-top: 6.5%;
+    padding: 6px;
+    margin-left: 3%;
+}
+.ft{
+    padding: 10px;
+}
