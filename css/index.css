@@ -48,7 +48,8 @@ footer{
     list-style: none;
     display: flex;
     margin-top: 6.5%;
-    padding: 6px;
+    margin-bottom: 0;
+    padding: 9px;
     margin-left: 3%;
 }
 .ft{
