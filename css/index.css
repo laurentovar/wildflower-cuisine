@@ -1,9 +1,14 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+:root{
+    --main-green-color:#9fbca1;
+    --darker-green-color: #687869;
+    --second-main-green: #808d74;
+}
 /*===Navbar===*/
 .navbar{
-    background-color: #9fbca1;
+    background-color: var(--main-green-color);
     position: fixed;
     top: 0;
     width: 100%;
@@ -14,25 +19,25 @@ a{
     font-family: 'DM Serif Display', serif;
 }
 a:hover{
-    color: #687869;
+    color: var(--darker-green-color);
 }
 .navbar-brand{
     font-size: 1.6em;
 }
 .btn{
-    background-color: #808d74;
+    background-color: var(--second-main-green);
     border-radius: 16px;
     color: white;
    }
 .btn:hover {
-    background-color: #687869;
+    background-color: var(--second-main-green);
     color: white!important;
 }
 
 /*===Carousel===*/
 .w-100{
     margin-top: 5.5em !important;
-    height: 34em!important;
+    height: 32em!important;
     width: 90% !important;
 }
 
@@ -41,14 +46,13 @@ a:hover{
 }
 /*========Footer======*/
 footer{
-    background-color: #9fbca1;
+    background-color: var(--main-green-color);
     color: white;
 }
 .footer{
     list-style: none;
     display: flex;
-    margin-top: 6.5%;
-    margin-bottom: 0;
+    margin-top: 1.6em;
     padding: 9px;
     margin-left: 3%;
 }
