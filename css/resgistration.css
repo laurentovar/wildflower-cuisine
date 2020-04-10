@@ -59,7 +59,7 @@ a:hover{
     width: 450px;
     height: auto;
     margin-top: -50px;
-    background: #eaffec;
+    background: #a4aea4;
     color: #000;
     border-radius: 14px;
     z-index: 1000;
@@ -74,13 +74,13 @@ a:hover{
     float: right;
 }
 .btn{
-    background-color: var(--darker-green-color);
-    border-color: var(--darker-green-color);
+    background-color: var(--darkest-green-color);
+    border-color: var(--darkest-green-color);
     color: white;
 }
 .btn:hover{
-    background-color: var(--darkest-green-color);
-    border-color: var(--darkest-green-color);
+    background-color: var(--darker-green-color);
+    border-color: var(--darker-green-color);
     color: white;
 }
 .form-control{
