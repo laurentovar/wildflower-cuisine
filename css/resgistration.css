@@ -1,104 +1,110 @@
-*{
-    font-family: 'Poppins', sans-serif;
-}
-:root{
-    --main-green-color:#9fbca1;
-    --darker-green-color: #687869;
-    --second-main-green: #808d74;
-    --darkest-green-color: #5c5858;
-}
-/*===Navbar===*/
-.navbar{
-    background-color: var(--main-green-color);
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-}
-.navbar-brand{
-    color: white;
-    font-family: 'DM Serif Display', serif;
-}
-a:hover{
-    color: var(--darker-green-color);
-}
-.navbar-brand{
-    font-size: 1.6em;
-}
+/**{*/
+/*    font-family: 'Poppins', sans-serif;*/
+/*}*/
+/*:root{*/
+/*    --main-green-color:#9fbca1;*/
+/*    --darker-green-color: #687869;*/
+/*    --second-main-green: #808d74;*/
+/*    --darkest-green-color: #5c5858;*/
+/*}*/
+/*!*===Navbar===*!*/
+/*.navbar{*/
+/*    background-color: var(--main-green-color);*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    width: 100%;*/
+/*    z-index: 1;*/
+/*}*/
+/*.navbar-brand{*/
+/*    color: white;*/
+/*    font-family: 'DM Serif Display', serif;*/
+/*}*/
+/*a:hover{*/
+/*    color: var(--darker-green-color);*/
+/*}*/
+/*.navbar-brand{*/
+/*    font-size: 1.6em;*/
+/*}*/
 
-/*===Tabs====*/
+/*!*===Tabs====*!*/
 
-.content{
-    width: 30%;
-    height: auto;
-    margin-top: 4%;
-    margin-left: 32.5%;
-    padding: 30px;
-}
-.nav-pills{
-    width: 450px;
-}
-.nav-item{
-    width: 50%;
-}
-.nav-pills .nav-link{
-    font-weight: bold;
-    padding-top: 13px;
-    text-align: center;
-        background-color: var(--darkest-green-color);
-    color: #fff;
-    border-radius: 30px;
-    height: 100px;
-}
-.nav-pills .nav-link.active{
-    background-color: var(--darker-green-color);
-    color: #fff;
-}
-.tab-content{
-    position: absolute;
-    width: 450px;
-    height: auto;
-    margin-top: -50px;
-    background: #a4aea4;
-    color: #000;
-    border-radius: 14px;
-    z-index: 1000;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
-    padding: 30px;
-    margin-bottom: 50px;
-}
-.tab-content button{
-    border-radius: 16px;
-    width: 100px;
-    margin: 0 auto;
-    float: right;
-}
-.btn{
-    background-color: var(--darkest-green-color);
-    border-color: var(--darkest-green-color);
-    color: white;
-}
-.btn:hover{
-    background-color: var(--darker-green-color);
-    border-color: var(--darker-green-color);
-    color: white;
-}
-.form-control{
-        border-radius: 16px;
-        border-color: #566d66;
-}
-/*========Footer======*/
-footer{
-    background-color: var(--main-green-color);
-    color: white;
-}
-.footer{
-    list-style: none;
-    display: flex;
-    margin-top: 31.9em;
-    padding: 9px;
-    margin-left: 3%;
-}
-.ft{
-    padding: 10px;
-}
+/*.content{*/
+/*    width: 30%;*/
+/*    height: auto;*/
+/*    margin-top: 4%;*/
+/*    margin-left: 32.5%;*/
+/*    padding: 30px;*/
+/*}*/
+/*.nav-pills{*/
+/*    width: 450px;*/
+/*}*/
+/*.nav-item{*/
+/*    width: 50%;*/
+/*}*/
+/*.nav-pills .nav-link{*/
+/*    font-weight: bold;*/
+/*    padding-top: 13px;*/
+/*    text-align: center;*/
+/*        background-color: var(--darkest-green-color);*/
+/*    color: #fff;*/
+/*    border-radius: 30px;*/
+/*    height: 100px;*/
+/*}*/
+/*.nav-pills .nav-link.active{*/
+/*    background-color: var(--darker-green-color);*/
+/*    color: #fff;*/
+/*}*/
+/*.tab-content{*/
+/*    position: absolute;*/
+/*    width: 450px;*/
+/*    height: auto;*/
+/*    margin-top: -50px;*/
+/*    background: #a4aea4;*/
+/*    color: #000;*/
+/*    border-radius: 14px;*/
+/*    z-index: 1000;*/
+/*    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);*/
+/*    padding: 30px;*/
+/*    margin-bottom: 50px;*/
+/*}*/
+/*.tab-content button{*/
+/*    border-radius: 16px;*/
+/*    width: 100px;*/
+/*    margin: 0 auto;*/
+/*    float: right;*/
+/*}*/
+/*.btn{*/
+/*    background-color: var(--darkest-green-color);*/
+/*    border-color: var(--darkest-green-color);*/
+/*    color: white;*/
+/*}*/
+/*.btn:hover{*/
+/*    background-color: var(--darker-green-color);*/
+/*    border-color: var(--darker-green-color);*/
+/*    color: white;*/
+/*}*/
+/*.form-control{*/
+/*        border-radius: 16px;*/
+/*        border-color: #566d66;*/
+/*}*/
+/*!*========Footer======*!*/
+/*footer{*/
+/*    background-color: var(--main-green-color);*/
+/*    color: white;*/
+/*}*/
+/*.footer{*/
+/*    list-style: none;*/
+/*    display: flex;*/
+/*    margin-top: 31.9em;*/
+/*    padding: 9px;*/
+/*    margin-left: 3%;*/
+/*}*/
+/*.ft{*/
+/*    padding: 10px;*/
+/*}*/
+/*.food-container{*/
+/*    background-image: url("../img/colorfulFood.jpg");*/
+/*    width: 100%;*/
+/*    height: 20%;*/
+/*    margin-top: 20%;*/
+/*}*/
