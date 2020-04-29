@@ -24,3 +24,19 @@ nav{
 #logo{
     width: 3.5em;
 }
+
+.container-fluid{
+    position: absolute !important;
+    margin-top: -17.5em !important;
+    background-color: lightgray !important;
+    width: 93.5% !important;
+    opacity: 0.9;
+
+}
+#titleFood{
+    font-family: var(--header-font);
+    font-weight: bold;
+    font-size: 69px;
+    padding: 17px;
+    flex-wrap: wrap;
+}
