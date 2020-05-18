@@ -37,6 +37,8 @@ nav{
     font-family: var(--header-font) !important;
     font-size: 4.5rem;
     padding: 1px;
+    margin-top: 1rem;
+    margin-left: 10px;
 
 }
 /* About us */
