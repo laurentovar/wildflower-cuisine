@@ -33,14 +33,10 @@ nav{
     opacity: 0.9;
 
 }
+#titleFood{
+    font-family: var(--header-font) !important;
+    font-size: 4.5rem;
+    padding: 1px;
+
+}
 /* About us */
-#aboutMe{
-    font-family: var(--header-font);
-    font-weight: bold;
-    font-size: 69px;
-    padding: 17px;
-    flex-wrap: wrap;
-}
-.redBackground{
-    background-color: var(--main-red-color);
-}
