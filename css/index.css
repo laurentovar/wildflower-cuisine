@@ -99,3 +99,11 @@ hr{
     width: 100%;
     padding: 20px;
 }
+
+.orangeSection1{
+    background-color: var(--main-orange-color);
+    /* margin-top: 20px; */
+    max-width: 94%;
+    display: flex;
+    margin-left: 1rem;
+}    
