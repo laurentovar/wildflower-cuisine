@@ -82,3 +82,15 @@ hr{
     max-width: 80%;
     border: 1px solid #e1dcd8;
 }
+.greenSection1{
+    background-color: var(--main-darkGreen-color);
+    margin-top: 20px;
+    max-width: 94%;
+    display: flex;
+    margin-left: 1rem;
+    z-index: 1;
+}
+#aboutInfoImg{
+    width: 100%;
+    padding: 20px;
+}
