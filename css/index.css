@@ -41,10 +41,9 @@ nav{
     margin-left: 10px;
 
 }
-/* About us */
+/*====About us=======*/
 .aboutUs{
-    background-color: var(--main-grey-color);
-    border: 3px solid grey;
+    background-color: #e1dcd8;
     max-width: 94%;
     justify-content: center;
     display: flex;
@@ -54,7 +53,6 @@ nav{
 }
 #aboutUs{
     background-color: white;
-    border: 3px solid white;
     display: inline-block;
     font-family: var(--header-font) !important;
     padding-top: 10px;
@@ -63,4 +61,24 @@ nav{
     margin-right: 7px;
     width: 100%;
     text-align: center;
+}
+    /*about info*/
+.redSection1{
+    background-color: var(--main-red-color);
+    margin-top: 20px;
+    max-width: 94%;
+    display: flex;
+    margin-left: 1rem;
+}    
+.aboutInfo{
+    background-color: white;
+    display: inline-block;
+    padding: 30px;
+    margin: 20px;
+    width: 100%;
+    font-size: 15px;
+}
+hr{
+    max-width: 80%;
+    border: 1px solid #e1dcd8;
 }
