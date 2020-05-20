@@ -27,10 +27,12 @@ nav{
 
 .container-fluid{
     position: absolute !important;
-    margin-top: -17.5em !important;
+    margin-top: -19.5em !important;
     background-color: lightgray !important;
-    width: 93.5% !important;
+    width: 80% !important;
     opacity: 0.9;
+    margin-left: 35px;
+    margin-right: 20px;
 
 }
 #titleFood{
@@ -38,7 +40,10 @@ nav{
     font-size: 4.5rem;
     padding: 1px;
     margin-top: 1rem;
-    margin-left: 10px;
+    /* margin-left: 30px; */
+    display: inline-block;
+    text-align: center;
+
 
 }
 /*====About us=======*/
