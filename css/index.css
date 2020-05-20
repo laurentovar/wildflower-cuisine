@@ -27,24 +27,21 @@ nav{
 
 .container-fluid{
     position: absolute !important;
-    margin-top: -19.5em !important;
+    margin-top: -20.5em !important;
     background-color: lightgray !important;
-    width: 80% !important;
+    width: 70% !important;
     opacity: 0.9;
-    margin-left: 35px;
+    margin-left: 56px;
     margin-right: 20px;
 
 }
 #titleFood{
     font-family: var(--header-font) !important;
-    font-size: 4.5rem;
+    font-size: 4.9rem;
     padding: 1px;
     margin-top: 1rem;
-    /* margin-left: 30px; */
     display: inline-block;
     text-align: center;
-
-
 }
 /*====About us=======*/
 .aboutUs{
@@ -53,8 +50,6 @@ nav{
     justify-content: center;
     display: flex;
     margin-left: 1rem;
-
-
 }
 #aboutUs{
     background-color: white;
@@ -102,8 +97,19 @@ hr{
 
 .orangeSection1{
     background-color: var(--main-orange-color);
-    /* margin-top: 20px; */
     max-width: 94%;
     display: flex;
     margin-left: 1rem;
 }    
+.redSection2{
+    background-color: var(--main-red-color);
+    margin-top: 20px;
+    max-width: 94%;
+    display: flex;
+    margin-left: 1rem;
+    z-index: 1;
+}
+#aboutInfoImg2{
+    width: 100%;
+    padding: 20px;
+}
