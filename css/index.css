@@ -42,3 +42,25 @@ nav{
 
 }
 /* About us */
+.aboutUs{
+    background-color: var(--main-grey-color);
+    border: 3px solid grey;
+    max-width: 94%;
+    justify-content: center;
+    display: flex;
+    margin-left: 1rem;
+
+
+}
+#aboutUs{
+    background-color: white;
+    border: 3px solid white;
+    display: inline-block;
+    font-family: var(--header-font) !important;
+    padding-top: 10px;
+    margin-top: 6px;
+    margin-left: 7px;
+    margin-right: 7px;
+    width: 100%;
+    text-align: center;
+}
