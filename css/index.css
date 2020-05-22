@@ -12,7 +12,7 @@
     --header-font:'Special Elite', cursive;
 
 }
-/*=========NAVBAR========*/
+/*===================NAVBAR===================*/
 nav{
     background-color: var(--main-lightGreen-color);
 }
@@ -43,7 +43,7 @@ nav{
     display: inline-block;
     text-align: center;
 }
-/*====About us=======*/
+/*=======================ABOUT US=====================*/
 .aboutUs{
     background-color: #e1dcd8;
     max-width: 94%;
@@ -62,7 +62,7 @@ nav{
     width: 100%;
     text-align: center;
 }
-    /*about info*/
+    /*=====about info=====*/
 .redSection1{
     background-color: var(--main-red-color);
     margin-top: 20px;
@@ -112,4 +112,15 @@ hr{
 #aboutInfoImg2{
     width: 100%;
     padding: 20px;
+}
+/* =================FOOTER================ */
+.footerLinks{
+    margin-top: 15px;
+    background-color: var(--main-lightGreen-color);
+    list-style: none;  
+    padding: 17px; 
+    font-weight: bold;
+}
+.footerTag{
+    padding: 6px;
 }
