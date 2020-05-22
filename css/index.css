@@ -124,3 +124,7 @@ hr{
 .footerTag{
     padding: 6px;
 }
+div.sticky {
+    position: sticky;
+    bottom: 0;
+  } 
