@@ -17,7 +17,7 @@ nav{
     background-color: var(--main-lightGreen-color);
 }
 .navbar-brand{
-    font-family: var(--header-font);
+    font-family: var(--header-font) !important;
     font-weight: bold;
     font-size: 1.7em;
 }
@@ -128,3 +128,32 @@ div.sticky {
     position: sticky;
     bottom: 0;
   } 
+
+  /* ===========================REGISTER======================= */
+  #registerBackground{
+    width: 100%;
+    padding: 20px;
+    opacity: 0.3;
+    position: relative;
+  }
+  .registerGreyBackground{
+    position: absolute;
+    background-color: black;
+    color: white;
+
+
+
+  }
+  /* .container {
+    position: relative;
+  }
+  
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  } */
