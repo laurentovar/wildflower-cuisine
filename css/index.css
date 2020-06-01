@@ -222,7 +222,7 @@ textarea{
     border: 3px solid grey;
 
 }
-#cooktime{
+#cooktime, #category{
     border: 3px solid grey;
     width: 83%;
     margin-left: 8.5%;
