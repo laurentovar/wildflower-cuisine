@@ -200,14 +200,14 @@ button{
     padding: 20px;
     opacity: 0.3;
     position: relative;
-    height: 52rem;
+    height: 63rem;
 }
 .recipeBackground{
     position: absolute;
     background-color: #e1dcd8;
     max-width: 83%;
     margin-left: 8.5%;
-    margin-top: -48.6rem;
+    margin-top: -59.6rem;
   }
 .recipeInfo{
     text-align:center;
@@ -234,5 +234,13 @@ textarea{
 }
 #difficulty{
     display: flex;
-    margin-left: 20%;
+    margin-left: 15%;
+}
+h5{
+    display: inline;
+}
+#upload{
+    width: 24%;
+    margin-left: 67px;
+    font-size: 18px;
 }
