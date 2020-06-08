@@ -361,3 +361,26 @@ h5{
     border: 3px solid #cd4210;
 
 }
+.difficultyLevel{
+    width: 94%;
+    margin-left: 16px;
+    background-color: var(--main-orange-color);
+
+}
+#difficulty{
+    display: flex;
+    margin-left: 4.2%;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    width: 91%;
+    height: 111px;
+    padding-top: 7px;
+    background-color: white;
+    border: 3px solid #CD4210;
+    font-family: var(--header-font) !important;
+}
+.pots{
+    margin-top: -122px;
+    margin-left: 34px;
+}
