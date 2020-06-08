@@ -244,7 +244,7 @@ h5{
     margin-left: 67px;
     font-size: 18px;
 }
-/* =========Main page book========= */
+/* =====================Main page book====================== */
 .recipeBook{
     background-color: #e1dcd8;
     max-width: 94%;
@@ -347,4 +347,17 @@ h5{
     border: 2px solid white;
     color: white;
     font-size: 20px;
+}
+/* ======================SINGLE RECIPE============== */
+#aboutInfoImg2{
+    width: 92%;
+    padding: 15px;
+    margin-left: 19px;
+    margin-top: 10px;
+    background-color: white;
+    border: 3px solid #cd4210;
+}
+.recipeView{
+    border: 3px solid #cd4210;
+
 }
