@@ -384,3 +384,26 @@ h5{
     margin-top: -122px;
     margin-left: 34px;
 }
+.ingredients{
+    background-color: var(--main-orange-color);
+    max-width: 94%;
+    margin-left: 1rem;
+}
+#ingredientsTitle, #ingredientsList{
+    background-color: white;
+    width: 90%;
+    margin-left: 21px;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    text-align: center;
+    padding-top: 5px;
+    border-left: 3px solid #CD4210;
+    border-right: 3px solid #CD4210;
+}
+#ingredientsTitle{
+    border-top: 3px solid #CD4210;
+}
+#ingredientsList{
+    border-bottom: 3px solid #CD4210;
+
+}
