@@ -426,3 +426,6 @@ h5{
     border-top: 3px solid #CD4210;
     font-family: var(--header-font) !important;
 }
+.viewButtonOrange {
+    margin-left: 16.5%!important;
+}
